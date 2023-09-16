@@ -1,0 +1,21 @@
+body{
+    font-family: cursive;
+    background-color: rgb(32, 62, 62);
+    color: rgb(44, 39, 31);
+}
+nav{
+    background-color:floralwhite
+}
+ul{
+    display: flex;
+    margin-left: 22cm;
+}
+img{
+    height: min-content;
+    height: 1.5cm;
+    width: 3.8cm;
+}
+
+li{
+    padding-inline-end: 1cm;
+}
