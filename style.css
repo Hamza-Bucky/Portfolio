@@ -1,21 +1,77 @@
-body{
-    font-family: cursive;
-    background-color: rgb(32, 62, 62);
-    color: rgb(44, 39, 31);
-}
-nav{
-    background-color:floralwhite
-}
-ul{
-    display: flex;
-    margin-left: 22cm;
-}
-img{
-    height: min-content;
-    height: 1.5cm;
-    width: 3.8cm;
-}
 
-li{
-    padding-inline-end: 1cm;
-}
+        body{
+            background-color: rgb(24, 23, 23);
+            font-family: 'Poppins', sans-serif;
+            color: rgb(165, 162, 162);
+            
+        }
+        nav{
+            background-color: rgba(182, 175, 175, 0.081);
+            display: flex;
+            justify-content:space-around;
+            height: 75px;
+            
+        }
+        .logo{
+            position: relative;
+            left: -70px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            
+        }
+        nav ul button{
+            margin-left: 1cm;
+            margin-top: 30px ;
+            color: whitesmoke;
+            font-family: 'Poppins', sans-serif;
+            background-color: rgba(76, 76, 76, 0.582);
+            border-radius: 3px;
+            border: none;
+            text-align: center;
+            font-size:15px;
+
+        }
+        nav ul button:hover{
+            padding-top: 5px;
+            color: rgb(49, 48, 48);
+            background-color: rgb(141, 136, 136);
+            font-size: medium;
+        }
+        
+        nav ul li{
+            list-style: none;
+            margin: 0px 19px;
+        }
+        .left{
+            font-size: 2rem;
+            position: relative;
+            left: -7cm;
+            top: 30px;
+        }
+        .first-section{
+            display: flex;
+        }
+        .left-section{
+            width: 50%;
+            height: 16cm;
+            color: rgba(61, 57, 57, 0.549);
+            padding:2cm;
+                
+            font-size: 50px;
+            
+            
+        }
+        .right-section{
+            width: 50%;
+            height: 10cm;
+            
+        }
+        .right-section img{
+            height: 20cm;
+            mix-blend-mode: multiply;
+        }
+        .spn{
+            color: rgba(158, 158, 158, 0.83);
+        }
